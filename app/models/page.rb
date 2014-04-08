@@ -1,4 +1,7 @@
 class Page < ActiveFedora::Base
+
+  has_file_datastream "pageContent"
+
   has_metadata 'descMetadata', type: PageMetadata
 
   belongs_to :book, :property=> :is_part_of
