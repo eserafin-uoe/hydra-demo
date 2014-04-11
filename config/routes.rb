@@ -1,6 +1,9 @@
 HydraDemo::Application.routes.draw do
+<<<<<<< HEAD
   resources :books
 
+=======
+>>>>>>> 6651a68d35ab202af89e877b42ec83f4c42a71be
   root :to => "catalog#index"
   Blacklight.add_routes(self)
   HydraHead.add_routes(self)

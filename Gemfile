@@ -6,6 +6,11 @@ gem 'rails', '4.0.4'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
+<<<<<<< HEAD
+=======
+gem 'hydra'
+
+>>>>>>> 6651a68d35ab202af89e877b42ec83f4c42a71be
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 
@@ -21,10 +26,13 @@ gem 'therubyracer', platforms: :ruby
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+<<<<<<< HEAD
 #Use hydra
 
 gem 'hydra'
 
+=======
+>>>>>>> 6651a68d35ab202af89e877b42ec83f4c42a71be
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
@@ -55,7 +63,10 @@ group :development, :test do
   gem "rspec-rails"
   gem "jettywrapper"
 end
+<<<<<<< HEAD
 
 group :development, :test do
   gem "rspec-rails"
 end
+=======
+>>>>>>> 6651a68d35ab202af89e877b42ec83f4c42a71be
