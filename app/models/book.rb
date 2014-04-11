@@ -1,4 +1,8 @@
 class Book < ActiveFedora::Base
+  
+  # This is the include statement
+  include Hydra::AccessControls::Permissions
+  
   has_metadata 'descMetadata', type: BookMetadata
 
   has_attributes :title, datastream: 'descMetadata', multiple: false
