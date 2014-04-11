@@ -1,22 +1,7 @@
 language: ruby
 rvm:
-  - 2.1.0
-  - jruby-18mode
-  - jruby-19mode
-  - rbx
-  - ruby-head
-  - jruby-head
-  - ree
- +
- +notifications:
- +  email:
- +    - e.serafin@ed.ac.uk
- +
- +script:
- +  - bundle exec rake db:reset
- +  - bundle exec rake
- +
- +before_script:
- +  - cp config/database.yml.sample config/database.yml
- +  - cp config/fedora.yml.sample config/fedora.yml
- +  - cp config/solr.yml.sample config/solr.yml
+  - 2.0.0
+ 
+notifications:
+email:
+   - e.serafin@ed.ac.uk
