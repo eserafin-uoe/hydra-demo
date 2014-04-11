@@ -6,15 +6,12 @@ class CatalogController < ApplicationController
   include Blacklight::Catalog
   include Hydra::Controller::ControllerBehavior
   # These before_filters apply the hydra access controls
-<<<<<<< HEAD
   before_filter :enforce_show_permissions, :only=>:show
   # This applies appropriate access controls to all solr queries
   CatalogController.solr_search_params_logic += [:add_access_controls_to_solr_params]
-=======
   # before_filter :enforce_show_permissions, :only=>:show
   # This applies appropriate access controls to all solr queries
   # CatalogController.solr_search_params_logic += [:add_access_controls_to_solr_params]
->>>>>>> 6651a68d35ab202af89e877b42ec83f4c42a71be
   # This filters out objects that you want to exclude from search results, like FileAssets
   CatalogController.solr_search_params_logic += [:exclude_unwanted_models]
 
