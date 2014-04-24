@@ -14,7 +14,8 @@
 ActiveRecord::Schema.define(version: 20140408134134) do
 
 ActiveRecord::Schema.define(version: 20140408021752) do
->>>>>>> 6651a68d35ab202af89e877b42ec83f4c42a71be
+
+
 
   create_table "bookmarks", force: true do |t|
     t.integer  "user_id",     null: false
