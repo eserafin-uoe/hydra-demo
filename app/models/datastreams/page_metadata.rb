@@ -10,8 +10,8 @@ class PageMetadata < ActiveFedora::OmDatastream
   def self.xml_template
     Nokogiri::XML.parse("<fields/>")
   end
-<<<<<<< HEAD
+
 end
-=======
+
 end
->>>>>>> 6651a68d35ab202af89e877b42ec83f4c42a71be
+
